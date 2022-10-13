@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;500&family=Jost:wght@300;500&display=swap");
+
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: "Frank Ruhl Libre", serif;
+  font-family: "Jost", sans-serif;
+}
+
+.digits {
+  display: inline-block;
+  display: inline-block;
+  padding: 10px;
+  height: 50px;
+  width: 56px;
+  text-align: center;
+  font-weight: 100;
+  background-color: rgb(241 241 241);
+  border-radius: 10px;
+  margin: 5px;
+  cursor: pointer;
+  color: #676767;
+}
+
+#content-section {
+  max-width: 800px;
+  margin-inline: auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(10%);
+}
+
+#numbers {
+  font-size: 2em;
+}
+
+#display-number {
+  position: relative;
+  top: -791px;
+  left: 181px;
+  width: 584px;
+  height: 61px;
+  border-radius: 10px;
+  font-size: 1.1em;
+  text-align: center;
+  color: #f18f01;
+  outline: none;
+  /* bottom: 56px; */
+  border: none;
+  background-color: #f1f1f1;
+}
+
+#random {
+  position: relative;
+  top: -138px;
+  left: 350px;
+  height: 68px;
+  width: 420px;
+  border-radius: 10px;
+  background-color: #f18e00;
+  outline: none;
+  text-decoration: none;
+  border: none;
+  font-size: 1.1em;
+  color: #f1f1f1;
+  cursor: pointer;
+}
+
+#orange1 {
+  color: #ffea00;
+}
+#orange2 {
+  color: #ffcc00;
+}
+
+#orange3 {
+  color: #ff6200;
+}
+
+.digits:hover {
+  background-color: rgb(152, 152, 152);
+  color: #e0e0e0;
+}
+
+#random:hover {
+  background-color: #c77400;
+  color: #ffd5ba;
+}
